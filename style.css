@@ -1,0 +1,47 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(235, 75, 235);
+}
+
+.mini-calendar {
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 7px rgba(26, 25, 25, 0.7);
+  overflow: hidden;
+}
+
+.month {
+  margin: 0;
+  background-color: rgb(53, 193, 240);
+  font-weight: bold;
+}
+
+.day {
+  margin: 10px;
+  padding: 10px;
+  color: lightgray;
+  font-size: 25px;
+}
+
+.number {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.year {
+  color: lightgray;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+}
